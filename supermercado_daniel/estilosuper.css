@@ -1,0 +1,394 @@
+* {
+
+    box-sizing: border-box;
+
+  }
+
+  html, body{
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+  }
+
+  h1 { 
+    
+    margin-top: 0;
+    color: #fff; 
+    font-family: 'Trebuchet MS';
+    text-shadow: 1px 1px 2px black; 
+  }
+
+  #bg-image{
+
+    background-image: url(imagenes/supermercado.jpg);
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+
+}
+
+  #cabecera{
+    padding-top: 1%;
+    text-align: center;
+
+
+
+}
+
+#contenedorcajas{
+
+    margin: auto;
+    width: 50%;
+    height: 90%;
+    border: solid black;
+    border-width: 0.5%;
+    background-color: #EFE2BA;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    padding-bottom:1%;
+
+
+}
+
+.caja1, .caja2, .caja3, .caja4 {
+
+margin: 1vw;
+margin-left: 2.5%;
+width: 95%;
+height: 21%;
+background-color: lightgreen;
+border: solid white;
+border-width: 1%;
+text-align: center;
+}
+
+.texto{
+
+float: left;
+margin: auto;
+width: 50%;
+height: 100%;
+padding-top: 6%;
+
+}
+
+.texto span{
+
+font-size:2vw;
+margin-left: 10%;
+margin-top:10%;
+
+}
+
+.botones{
+
+float: left;
+margin: auto;
+width: 50%;
+height: 100%;
+padding-top: 6%;
+
+}
+
+
+
+.boton1, .boton2, .boton3, .boton4, .boton5, .boton6, .boton7, .boton8{
+
+background-color: white;
+border: none;
+color: black;
+padding: 0.5vw;
+text-align: center;
+display: block;
+font-size: 1vw;
+margin: 0.5vh;
+opacity: 0.8;
+transition: 0.3s;
+
+
+} 
+
+.modos{
+
+
+  margin: auto;
+  width: 50%;
+}
+
+.botonNoche, .botonDia{
+
+  border: none;
+  color: black;
+  padding: 0.5vw;
+  text-align: center;
+  font-size: 1vw;
+  margin: 0.5vh;
+  opacity: 0.8;
+  transition: 0.3s;
+  width: 48%;
+  margin-left: 1%;
+  
+  } 
+
+button:active{background-color:rgb(228, 224, 224);}
+
+button:hover {opacity: 1}
+
+.boton1, .boton2, .boton3, .boton4, .boton5, .boton6, .boton7, .boton8{
+
+    float:right;
+
+
+
+}
+
+.insertarTexto{
+
+margin: 1vw;
+margin-left: 58%;
+font-family: 'Trebuchet MS';
+width: 45%;
+}
+
+
+/* B R E A K P O I N T S      P A R A     S M A R T P H O N E S */
+
+
+@media only screen and (max-width: 600px) {
+
+  #contenedorcajas{
+
+    margin: auto;
+    width: 90%;
+    height: 85%;
+    border: solid black;
+    border-width: 0.5%;
+    background-color: #EFE2BA;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+
+
+}
+
+
+h1 { 
+    
+  font-size:10vw;
+  color: #fff; 
+  font-family: 'Trebuchet MS';
+  text-shadow: 1px 1px 2px black; 
+}
+
+.texto span{
+
+  font-size:6vw;
+  margin-left: 10%;
+  
+  }
+
+  .botones{
+
+    float: left;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    padding-top: 6%;
+    
+    }
+
+    .boton1, .boton2, .boton3, .boton4, .boton5, .boton6, .boton7, .boton8{
+
+      width: 90%;
+      height: 40%;
+      background-color: white;
+      border: none;
+      color: black;
+      padding: 0.5vw;
+      text-align: center;
+      display: block;
+      font-size: 4vw;
+      margin: 0.5vh;
+      opacity: 0.8;
+      transition: 0.3s;
+      } 
+
+      
+    .modos{
+      margin: auto;
+      width: 90%;
+      height: 5%;
+      margin-bottom: 1%;
+    }
+
+    .botonNoche, .botonDia{
+
+
+      border: solid black;
+      border-width: 0.7vw;
+      color: black;
+      padding: 0.5vw;
+      text-align: center;
+      font-size: 4vw;
+      margin: 0.5vh;
+      opacity: 0.8;
+      transition: 0.3s;
+      width: 47%;
+      height: 90%;
+      margin-left: 1%;
+      
+      } 
+
+      .insertarTexto{
+
+        padding-top: 5%;
+        margin: 1vw;
+        font-family: 'Trebuchet MS';
+        width: 100%;
+        }
+
+
+        .botonInput{
+
+          margin: 2vw;
+          height: 4vh;
+          margin-top: 5%;
+          margin-left: 10%;
+          width: 80%;
+          margin-bottom: 15%;
+
+
+        }
+}
+
+
+
+/* B R E A K P O I N T S      P A R A     T A B L E T */
+
+
+@media only screen and (max-width: 1024px) {
+
+  #contenedorcajas{
+
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    border: solid black;
+    border-width: 0.5%;
+    background-color: #EFE2BA;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+
+
+}
+
+
+h1 { 
+    
+  font-size:10vw;
+  color: #fff; 
+  font-family: 'Trebuchet MS';
+  text-shadow: 1px 1px 2px black; 
+}
+
+.texto span{
+
+  font-size:6vw;
+  margin-left: 10%;
+  
+  }
+
+  .botones{
+
+    float: left;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    padding-top: 6%;
+    
+    }
+
+    .boton1, .boton2, .boton3, .boton4, .boton5, .boton6, .boton7, .boton8{
+
+      width: 90%;
+      height: 40%;
+      background-color: white;
+      border: none;
+      color: black;
+      padding: 0.5vw;
+      text-align: center;
+      display: block;
+      font-size: 4vw;
+      margin: 0.5vh;
+      opacity: 0.8;
+      transition: 0.3s;
+      } 
+
+      
+    .modos{
+      margin: auto;
+      width: 90%;
+      height: 7%;
+      margin-bottom: 3%;
+    }
+
+    .botonNoche, .botonDia{
+
+
+      border: solid black;
+      border-width: 0.7vw;
+      color: black;
+      padding: 0.5vw;
+      text-align: center;
+      font-size: 4vw;
+      margin: 0.5vh;
+      opacity: 0.8;
+      transition: 0.3s;
+      width: 47%;
+      height: 100%;
+      margin-left: 1%;
+      
+      } 
+
+      .insertarTexto{
+
+        padding-top: 5%;
+        margin: 1vw;
+        font-family: 'Trebuchet MS';
+        width: 100%;
+        }
+
+
+        #labelInput{
+
+          font-size: 4vw;
+          margin-left: 15%;
+
+        }
+
+        #campoInput{
+
+         width: 30%;
+
+        }
+
+
+        .botonInput{
+
+          margin: 2vw;
+          height: 4vh;
+          margin-left: 10%;
+          width: 80%;
+
+
+        }
+}
+
