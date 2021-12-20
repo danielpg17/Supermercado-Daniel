@@ -4,6 +4,14 @@
 
   }
 
+
+  #icono {
+
+    float: left;
+
+
+  }
+
   html, body{
 
     height: 100%;
@@ -270,6 +278,13 @@ h1 {
 
 
         }
+
+        #icono {
+
+          display: none;
+      
+      
+        }
 }
 
 
@@ -392,6 +407,282 @@ h1 {
           width: 80%;
 
 
+        }
+}
+
+
+/* L A N D S C A P E */
+
+
+@media screen and (max-width: 600px) and (orientation:landscape) {
+
+  #contenedorcajas{
+
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    border: solid black;
+    border-width: 0.5%;
+    background-color: #EFE2BA;
+    overflow: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+
+
+}
+
+
+h1 { 
+    
+  font-size:5vw;
+  color: #fff; 
+  font-family: 'Trebuchet MS';
+  text-shadow: 1px 1px 2px black; 
+}
+
+
+.texto{
+
+
+  float: left;
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  padding-top: 3%;
+  
+
+}
+
+.texto span{
+
+  font-size:5vw;
+  
+  }
+
+  .botones{
+
+
+    float:  right ;
+    margin: 0;
+    padding: 0;
+    margin-top:0.5%;
+    object-fit: cover;
+    width: 25%;
+    height:70%;
+    
+    }
+
+    .boton1, .boton2, .boton3, .boton4, .boton5, .boton6, .boton7, .boton8{
+
+      width: 90%;
+      height: 60%;
+      background-color: white;
+      border: none;
+      color: black;
+      padding: 0.5vw;
+      text-align: center;
+      display: block;
+      font-size: 2vw;
+      margin: 0.5vh;
+      opacity: 0.8;
+      transition: 0.3s;
+      } 
+
+      
+    .modos{
+      margin: auto;
+      width: 90%;
+      height: 15%;
+      margin-bottom: 1%;
+    }
+
+    .botonNoche, .botonDia{
+
+
+      border: solid black;
+      border-width: 0.7vw;
+      color: black;
+      padding: 0.5vw;
+      text-align: center;
+      font-size: 2vw;
+      margin: 0.5vh;
+      opacity: 0.8;
+      transition: 0.3s;
+      width: 47%;
+      height: 100%;
+      margin-left: 1%;
+      
+      } 
+
+      .insertarTexto{
+
+        margin: 1vw;
+        font-family: 'Trebuchet MS';
+        width: 100%;
+        }
+
+
+        .botonInput{
+
+          margin: 2vw;
+          height: 4vh;
+          margin-left: 10%;
+          width: 80%;
+
+
+        }
+
+        #icono {
+
+          display: none;
+      
+        }
+
+}
+
+
+
+
+/* L A N D S C A P E        T A B L E T*/
+
+
+@media screen and (max-width: 1024px) and (orientation:landscape) {
+
+  #contenedorcajas{
+
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    border: solid black;
+    border-width: 0.5%;
+    background-color: #EFE2BA;
+    overflow: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    padding-bottom: 0%;
+    margin-bottom:0;
+
+
+}
+
+
+h1 { 
+    
+  margin: 0;
+  padding: 0;
+  font-size:5vw;
+  color: #fff; 
+  font-family: 'Trebuchet MS';
+  text-shadow: 1px 1px 2px black; 
+}
+
+
+.texto{
+
+
+  float: left;
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  padding-top: 3%;
+  
+
+}
+
+.texto span{
+
+  font-size:5vw;
+  
+  }
+
+  .botones{
+
+
+    float:  right ;
+    margin: 0;
+    padding: 0;
+    margin-top:0.5%;
+    object-fit: cover;
+    width: 25%;
+    height:70%;
+    
+    }
+
+    .boton1, .boton2, .boton3, .boton4, .boton5, .boton6, .boton7, .boton8{
+
+      width: 90%;
+      height: 60%;
+      background-color: white;
+      border: none;
+      color: black;
+      padding: 0.5vw;
+      text-align: center;
+      display: block;
+      font-size: 2vw;
+      margin: 0.5vh;
+      opacity: 0.8;
+      transition: 0.3s;
+      } 
+
+      .caja1, .caja2, .caja3, .caja4 {
+
+        margin: 1vw;
+        margin-left: 2.5%;
+        width: 95%;
+        height: 21%;
+        background-color: lightgreen;
+        border: solid white;
+        border-width: 1%;
+        text-align: center;
+        padding:0;
+        }
+        
+
+      
+    .modos{
+      margin: auto;
+      width: 90%;
+      height: 12%;
+      margin-bottom: 1%;
+    }
+
+    .botonNoche, .botonDia{
+
+
+      border: solid black;
+      border-width: 0.7vw;
+      color: black;
+      padding: 0.5vw;
+      text-align: center;
+      font-size: 2vw;
+      margin: 0.5vh;
+      opacity: 0.8;
+      transition: 0.3s;
+      width: 47%;
+      height: 100%;
+      margin-left: 1%;
+      
+      } 
+
+      .insertarTexto{
+
+        margin: 1vw;
+        font-family: 'Trebuchet MS';
+        width: 100%;
+        }
+
+
+        .botonInput{
+
+          height: 10%;
+          margin-left: 10%;
+          width: 80%;
+
+
+        }
+
+        #icono {
+
+          display: none;
+      
         }
 }
 
