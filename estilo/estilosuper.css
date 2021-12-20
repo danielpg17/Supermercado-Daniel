@@ -30,7 +30,7 @@
 
   #bg-image{
 
-    background-image: url(imagenes/supermercado.jpg);
+    background-image: url(../imagenes/supermercado.jpg);
     filter: blur(4px);
     -webkit-filter: blur(4px);
     margin: 0;
